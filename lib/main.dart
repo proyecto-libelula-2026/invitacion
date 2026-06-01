@@ -117,7 +117,7 @@ class _LandingPageState extends State<LandingPage>
                               const _ChipTag(label: '✦  Evento especial'),
                               const SizedBox(height: 14),
                               const Text(
-                                'Proyecto Libélula',
+                                'Clausura 2026',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                   fontSize: 42,
@@ -128,15 +128,6 @@ class _LandingPageState extends State<LandingPage>
                                 ),
                               ),
                               const SizedBox(height: 6),
-                              const Text(
-                                'Clausura del Programa de Educación Emocional',
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                  fontSize: 15,
-                                  color: kMuted,
-                                  letterSpacing: 0.4,
-                                ),
-                              ),
                             ],
                           ),
                         ),
@@ -306,7 +297,7 @@ class _BlueDivider extends StatelessWidget {
           ),
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 14),
-            child: Text('🪲', style: TextStyle(fontSize: 20)),
+            child: Text(' ', style: TextStyle(fontSize: 20)),
           ),
           Expanded(
             child: Container(
@@ -377,22 +368,16 @@ class _InvitationCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: const [
                 Text(
-                  'Estimado equipo,',
+                  'Con emocion los invitamos al cierre del Sistema de Gestión de Aprendizaje Emocional realizado con los pacientes y cuidadores.',
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     color: kBlue,
                     fontWeight: FontWeight.w700,
-                    fontSize: 15,
+
+                    fontSize: 19,
                   ),
                 ),
                 SizedBox(height: 8),
-                Text(
-                  'Es un gusto invitarlos a la clausura del Programa de '
-                  'Educación Emocional realizado con los pacientes y cuidadores '
-                  'del Proyecto Libélula.\n\n'
-                  'Queremos compartir los avances de este proceso y nos '
-                  'encantaría contar con su presencia en el evento de cierre.',
-                  style: TextStyle(color: kInk, fontSize: 14, height: 1.6),
-                ),
               ],
             ),
           ),
